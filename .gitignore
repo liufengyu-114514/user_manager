@@ -1,0 +1,56 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# 编译产物
+target/
+*.class
+
+# IDEA配置
+.idea/
+*.iml
+
+# 日志
+*.log
+
+# 操作系统
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# 测试数据（文件太大，不提交）
+*.csv
+*.xlsx
