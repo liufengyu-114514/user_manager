@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello, Java! 我的第一个Spring Boot接口！";
+        return "Hello from Feature branch!";
     }
 }
